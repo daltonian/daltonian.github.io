@@ -1,7 +1,7 @@
 ---
 layout: page
 title: How to use DaltonView
-permalink: /DaltonView/
+permalink: /daltonview/
 ---
 
 ### Words and Title Here
