@@ -1,33 +1,18 @@
 ---
 layout: page
 permalink: /archive/
-title: Posts Archive
+title: 
 ---
 
+### [github.com/daltonian](Github Repository) ###
 
-<div id="archives">
-  <section id="archive">
-     <h3>Most Recent Posts</h3>
-      {%for post in site.posts %}
-      {% unless post.next %}
-      <ul class="this">
-          {% else %}
-          {% capture month %}{{ post.date | date: '%B %Y' }}{% endcapture %}
-          {% capture nmonth %}{{ post.next.date | date: '%B %Y' }}{% endcapture %}
-          {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-          {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-          {% if year != nyear %}
-      </ul>
-      <h2 style="text-align:left;">{{ post.date | date: '%Y' }}</h2>
-      <ul class="past">
-          {% endif %}
-          {% if month != nmonth %}
-          <h3 style="text-align:left;">{{ post.date | date: '%B %Y' }}</h3>
-          {% endif %}
-          {% endunless %}
-          <p><b><a href="{{ site.baseurl }}{{ post.url }}">{% if post.title and post.title != "" %}{{post.title}}{% else %}{{post.excerpt |strip_html}}{%endif%}</a></b> - {% if post.date and post.date != "" %}{{ post.date | date: "%e %B %Y" }}{%endif%}</p>
-          {% endfor %}
-      </ul>
-    <h3>Oldest Posts</h3>
-  </section>
-</div>
+Summary of Projects
+
+#1) DaltonView #
+TD-DFT excitation spectrum generator
+
+#2) Unwrapped #
+Spotify has figured out how to create annual hype about their service trough the "Spotify Wrapped" campaign which unleashes itself each December. Unwrapped serves to let the user take control of their own data and analyze their listening trends within whatever timeline they desire.
+
+#3) Chamber Instrument Management System (currently private)#
+System which integrates different probes and analyzers into one central measurement hub. Data is recorded into experiment files that provide all of the experimental conditions in one place, with the ability to declare different events throughout the experiment for speedier analysis.
