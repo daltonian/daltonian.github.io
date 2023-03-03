@@ -4,11 +4,12 @@ permalink: /archive/
 title: 
 ---
 
-## [Github Repository](github.com/daltonian)
+## [Github Repository](https://github.com/daltonian)
 
 Summary of Projects
 
 **#1) DaltonView**
+
 TD-DFT excitation spectrum generator
 
 **#2) Unwrapped**
