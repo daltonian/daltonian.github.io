@@ -4,7 +4,7 @@ permalink: /archive/
 title: 
 ---
 
-## !link[github.com/daltonian](Github Repository)
+## [github.com/daltonian](Github Repository)
 
 Summary of Projects
 
