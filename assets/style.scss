@@ -1138,22 +1138,16 @@ Modules - reusable parts of our design
 
 // Custom functions
 
-.wrapper-image-block {
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-.content-image-block {
-  max-height: 200px;
-  max-width: 200px;
-}
-
-.image-block {
+.sidebyside img {
+  width: auto;
+  height: auto;
   float: left;
+  max-width: 500px;
 }
 
-.box-block {
-  float: right;
+.sidebyside p {
+  text-align: center;
+  min-width: 100px;
 }
 
 
