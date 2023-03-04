@@ -1139,13 +1139,13 @@ Modules - reusable parts of our design
 // Custom functions
 
 .wrapper-image-block {
-  width: 500px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
 .content-image-block {
-  height: 200px;
-  width: 200px;
+  max-height: 200px;
+  max-width: 200px;
 }
 
 .image-block {
