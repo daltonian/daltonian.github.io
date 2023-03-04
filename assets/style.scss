@@ -1136,6 +1136,26 @@ Modules - reusable parts of our design
   }
 }
 
+// Custom functions
+
+.wrapper-image-block {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.content-image-block {
+  height: 1000px;
+  width: 1000px;
+}
+
+.image-block {
+  float: left;
+}
+
+.box-block {
+  float: right;
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
