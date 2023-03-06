@@ -1136,31 +1136,20 @@ Modules - reusable parts of our design
   }
 }
 
-// Custom functions
+// Custom classes
 
-.sidebyside img {
-  width: auto;
-  height: auto;
-  float: left;
-  max-width: 500px;
-}
-
-.sidebyside p {
-  text-align: center;
-  min-width: 100px;
-}
 .homecontainer {
 	display: flex;
 	align-items: center;
 }
 .homeimage {
 	flex: 1;
-	margin-right: 20px;
+	margin-right: 0px;
 }
 .hometext-box {
 	flex: 1;
-	background-color: #f2f2f2;
-	padding: 20px;
+	background-color: #ffefd5;
+	padding: 0px;
 }
 
 
