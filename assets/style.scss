@@ -1150,6 +1150,17 @@ Modules - reusable parts of our design
   min-width: 100px;
 }
 
+banner {
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+  
+    background: url(https://www.flickr.com/photos/163103461@N05/50781744446/sizes/c/) no-repeat top center;
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
