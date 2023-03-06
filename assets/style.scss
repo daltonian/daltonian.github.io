@@ -1149,16 +1149,18 @@ Modules - reusable parts of our design
   text-align: center;
   min-width: 100px;
 }
-
-banner {
-    height: 100vh;
-    width: 100%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    background: url(https://live.staticflickr.com/65535/47942748708_ca8057977c_z.jpg) no-repeat top center;
+.homecontainer {
+	display: flex;
+	align-items: center;
+}
+.homeimage {
+	flex: 1;
+	margin-right: 20px;
+}
+.hometext-box {
+	flex: 1;
+	background-color: #f2f2f2;
+	padding: 20px;
 }
 
 
