@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: "A deeper look at data"
 categories: science
 ---
 
