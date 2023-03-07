@@ -1139,17 +1139,27 @@ Modules - reusable parts of our design
 // Custom classes
 
 .homecontainer {
-	display: flex;
-	align-items: center;
+	position: relative;
 }
 .homeimage {
-	flex: 1;
-	margin-right: 0px;
+	display: block;
+  width: 50%;
+  height: auto;
 }
 .hometext-box {
-	flex: 1;
-	background-color: #ffefd5;
-	padding: 0px;
+	position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  box-sizing: border-box;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
