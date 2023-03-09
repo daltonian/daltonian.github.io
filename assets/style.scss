@@ -1163,7 +1163,7 @@ Modules - reusable parts of our design
 }
 
 /* Media queries for smaller screens */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .homecontainer {
     display: flex;
     flex-wrap: wrap;
