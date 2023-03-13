@@ -1139,19 +1139,16 @@ Modules - reusable parts of our design
 // Custom classes
 
 .homecontainer {
-	position: relative;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
 }
+
 .homeimage {
-	display: block;
-  width: 50%;
+  max-width: 45%;
   height: auto;
 }
 .hometextbox {
-	position: absolute;
-  top: 0;
-  left: 50%;
-  width: 50%;
-  height: 100%;
   background-color: #f2f2f2;
   padding: 20px;
   box-sizing: border-box;
@@ -1164,14 +1161,13 @@ Modules - reusable parts of our design
 
 
 /* Media queries for smaller screens */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   .homecontainer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
   }
   .homeimage {
-    margin-right: 0;
     margin-bottom: 0px;
     flex: 1;
     margin-right: 10px;
@@ -1183,8 +1179,7 @@ Modules - reusable parts of our design
     width: 100%;
     left: 0%;
   }
-	}
-
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
